@@ -1,0 +1,94 @@
+* {
+    margin: 2px;
+    padding: 5pt;
+    font-family: inherit;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: rgb(178, 181, 182);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+
+}
+.logo{
+    
+    color: aliceblue;
+    user-select: none;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: rgb(63, 72, 80);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+    padding: 20px;
+    
+
+}
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+
+
+
+
+}
+.navigation .btnLogin-popup:haver{
+    background: #fff ;
+    color: #162938;
+    
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 5pt;
+    padding: 5px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 5pt;
+    padding: 5px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    margin: 5pt;
+    padding: 5px;
+
+}
+
+img {
+    border-radius: 10%;
+}
+
+
+section {
+    background-color: darkgrey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1%;
+}
+
+nav a:hover {
+    background: #fff;
+}
